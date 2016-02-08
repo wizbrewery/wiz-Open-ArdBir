@@ -1,4 +1,4 @@
-Open ArdBir 2012-2015
+Open ArdBir 2012-2016
 ===========
 ##[Version 2.8.3-RC](https://github.com/ArdBir/Open-ArdBir/archive/v2.8.3-RC.zip)
 
@@ -12,8 +12,7 @@ brauduino semi automated single vessel RIMS
 created by s.mathison
 Copyright (C) 2012  Stephen Mathison
 
-
-Modified by wizbrewery.wordpress.com (2016)
+###Modified by wizbrewery.wordpress.com (2016)
  - Added ONEWIRE bus to support second temperaure probe
  - Amended display to show reding of second temperature probe for both auto and manual
  - Auto shows temp readings to 2 decimal place vertically aligned
@@ -25,7 +24,7 @@ Modified by wizbrewery.wordpress.com (2016)
  - IOT implementation for connection to thingspeak.com
  - Incorporate second temp probe into control.  Any ideas on a plan to do this?
  
-Modified BY Oddvar S. Næss (2014)
+###Modified BY Oddvar S. Næss (2014)
  - Ported to Arduino Mega 2650
  - Implemented I2C Serial Display (use I2C Scanner sketch to determend I2C address)
  - Added PCB_OSN.h Library for prototyping (not an actual circutboard)
