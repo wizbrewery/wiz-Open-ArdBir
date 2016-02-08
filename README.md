@@ -1,6 +1,7 @@
 Open ArdBir 2012-2016
 ===========
-##[Version 2.8.3-RC](https://github.com/ArdBir/Open-ArdBir/archive/v2.8.3-RC.zip)
+##[Version 2.8.3-Wiz](https://github.com/wizbrewery/wiz-Open-ArdBir)
+##modded from[Version 2.8.3-RC](https://github.com/ArdBir/Open-ArdBir/archive/v2.8.3-RC.zip)
 
 ####[Source, PCB, Manual (English, Italian, Russian)](http://goo.gl/qMhPgu)
 
