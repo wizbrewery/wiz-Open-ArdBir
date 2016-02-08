@@ -6,12 +6,34 @@ Open ArdBir 2012-2015
 
 ####Avaible Language: Italian, English, Spanish, Portuguese, Russian (20x4), Norwegian (20x4).
 
-####Compiled on [Arduine IDE v1.6.1](http://www.arduino.cc/en/Main/Software).
+####Compiled on [Arduine IDE v1.6.5](http://www.arduino.cc/en/Main/Software).
 
 brauduino semi automated single vessel RIMS
 created by s.mathison
 Copyright (C) 2012  Stephen Mathison
 
+
+Modified by wizbrewery.wordpress.com (2016)
+ - Added ONEWIRE bus to support second temperaure probe
+ - Amended display to show reding of second temperature probe for both auto and manual
+ - Auto shows temp readings to 2 decimal place vertically aligned
+ - Manual shows temp readings to 1 dp side by side
+ - Implemented new GetTemperature() which takes probe i2c address as an argument,  so that it can be called for each probe
+ - Currently implemented so that you have to enter your probes specific i2c address
+
+ - To do ..  fix 1 decimal place for manual mode
+ - IOT implementation for connection to thingspeak.com
+ - Incorporate second temp probe into control.  Any ideas on a plan to do this?
+ 
+Modified BY Oddvar S. Næss (2014)
+ - Ported to Arduino Mega 2650
+ - Implemented I2C Serial Display (use I2C Scanner sketch to determend I2C address)
+ - Added PCB_OSN.h Library for prototyping (not an actual circutboard)
+ - Added 4 status LEDs (Heater, Pump, 12Vdc, 220Vac ON/OFF)
+ - Added 1 additional pump for circulation (work in progress)
+ - Added 1 manual on/off button for circulation pump (work in progress)
+ - Added 1 additional temperature sensor for monitoring (work in progress)
+ 
 ###Modified by Mike Wilson
 
  - Added INPUT_PULLUP to button inputs
